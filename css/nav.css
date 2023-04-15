@@ -1,4 +1,4 @@
-navigation {
+.navigation {
     height: 80px;
     background-color: white;
     display: flex; /*pour passitionner les elements de nav barre horizontal*/
