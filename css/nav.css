@@ -1,0 +1,27 @@
+navigation {
+    height: 80px;
+    background-color: white;
+    display: flex; /*pour passitionner les elements de nav barre horizontal*/
+    align-items: center; /*pour centerer les elements de nav barre*/
+    justify-content: space-between;
+    }
+    #logo{
+        height: 70px;
+         margin-left: 30px;
+    }
+    .nav-items {
+        margin-right: 100px;
+        display: flex;
+        list-style: none;
+    }
+    .line{
+        padding: 28px;
+     }
+    .line:hover{
+        background-color: rgba(128, 128, 128, 0.317);
+    }
+    .nav-items a {
+        color: black;
+        text-decoration: none;/*enleve la ligne */
+        font-size: 22px; 
+    }

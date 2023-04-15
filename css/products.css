@@ -1,0 +1,44 @@
+#products{
+    height: 200vh; 
+    background-color:rgba(68, 36, 9, 0.681);
+}
+.card{
+    height: 500px;
+    width: 300px;
+   /* border:black 2px dotted*/
+}
+.card-img{
+    height:300px ;
+}
+.separater{
+    height: 1px;
+    width: 250px;
+    background-color: white;
+    margin: 20px;
+}
+.card  p {
+    margin: 10px 0;/* le 10 pour left & reight*/
+}
+.card .order-btn{
+    color: white;
+} 
+.details-container{
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    /* avec le diplay flex : 
+    /* max-width: 900px;*/
+    /*display: flex;
+  /*  overflow-y: scroll;*/
+   /* flex-wrap: wrap;
+    margin: 0 auto;*/
+    display: grid;
+    grid-template-columns: repeat(3,300px); /* pour donner comme bien de card dans une ligne avec le width de chaque une */
+    justify-content: center;
+    gap: 20px; /* pour donner un marggin sur mes cars*/
+}
